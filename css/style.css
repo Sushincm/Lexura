@@ -175,17 +175,7 @@ h6,
   overflow: hidden;
 }
 .right-banner {
-  background-image: url("../images/banner-right.jpg");
-}
-.banner-item::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.1);
-  transition: var(--transition-smooth);
+  background-image: url("../images/right-banner.jpg");
 }
 
 .banner-item:hover::before {
@@ -194,14 +184,10 @@ h6,
 
 .left-banner .banner-content {
   padding-left: 10%;
-  color: #fff;
+  color: #000;
   max-width: 600px;
   position: relative;
   z-index: 10;
-}
-
-.right-banner {
-  background-color: #f4f4f4;
 }
 
 .right-banner .banner-content {
@@ -227,7 +213,7 @@ h6,
 
 .banner-desc {
   font-size: 0.95rem;
-  color: var(--text-muted);
+  color: #cacaca;
   line-height: 1.8;
 }
 
@@ -235,10 +221,11 @@ h6,
   letter-spacing: 2px;
   font-size: 0.8rem;
   transition: var(--transition-smooth);
+  color: #000;
+  border-color: #000;
 }
 
 .banner-btn:hover {
-  background-color: #fff;
   color: #000;
   padding-left: 3.5rem !important;
   padding-right: 3.5rem !important;
@@ -249,6 +236,7 @@ h6,
   letter-spacing: 1px;
   text-transform: uppercase;
   transition: var(--ani);
+  color: #fff !important;
 }
 
 .special-selection-btn:hover {
