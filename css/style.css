@@ -175,7 +175,7 @@ h6,
   overflow: hidden;
 }
 .right-banner {
-  background-image: url("../images/right-banner.jpg");
+  background-image: url("../images/banner-right-2.jpg");
 }
 
 .banner-item:hover::before {
@@ -298,9 +298,6 @@ h6,
   border-radius: 4px;
 }
 
-.promo-item:hover {
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
-}
 
 .promo-img {
   position: absolute;
@@ -312,12 +309,6 @@ h6,
   transition: var(--transition-smooth);
   pointer-events: none;
 }
-
-.promo-item:hover .promo-img {
-  right: 0px;
-  transform: translateY(-50%) scale(1.05);
-}
-
 .promo-link {
   font-size: 0.75rem;
   letter-spacing: 2px;
@@ -559,7 +550,7 @@ h6,
 
 /* Newsletter Section */
 .newsletter-section {
-  background-color: #222222 !important;
+  background-color: var(--secondary-color) !important;
 }
 
 .newsletter-section .sub-title {
@@ -597,7 +588,7 @@ h6,
 
 /* Footer Section */
 .footer {
-  background-color: #222 !important;
+  background-color: var(--secondary-color) !important;
 }
 
 .footer-links li {
