@@ -127,10 +127,6 @@ h6,
 }
 
 /* Header Refinement */
-.header-main-row {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-}
-
 .header-sub-row .support-text {
   font-size: 0.85rem;
   letter-spacing: 0.5px;
@@ -145,8 +141,9 @@ h6,
 }
 
 .brand-logo-header {
-  width: 80px;
+  width: 100px;
   height: auto;
+  border-radius: 100%;
 }
 
 .support-text {
@@ -160,22 +157,6 @@ h6,
 
 .support-text:hover {
   color: var(--primary-color);
-}
-
-@media (max-width: 767px) {
-  .header-main-row {
-    flex-direction: column;
-    gap: 20px;
-    padding: 20px 0 !important;
-  }
-  .header-main-row > div {
-    justify-content: center !important;
-    text-align: center !important;
-  }
-  .social-icons-wrap {
-    padding-left: 0;
-    border-left: none;
-  }
 }
 
 /* Banner Section */
@@ -292,7 +273,7 @@ h6,
   .newsletter-section {
     padding-bottom: 0;
   }
-    .update-head {
+  .update-head {
     margin-bottom: 1rem !important;
   }
 }
@@ -687,10 +668,30 @@ h6,
   .hero-section {
     padding-top: 0;
   }
-
+  .brand-logo-header {
+    width: 70px;
+  }
+  header{
+    background-color: var(--secondary-color);
+  }
+  .header-right-actions {
+    width: 96px !important;
+    flex: 0 !important;
+  }
+  .social-icon i{
+    color: var(--primary-color);
+  }
 }
 
 @media (max-width: 767px) {
+  .header-main-row > div {
+    justify-content: center !important;
+    text-align: center !important;
+  }
+  .social-icons-wrap {
+    padding-left: 0;
+    border-left: none;
+  }
   .section-title {
     font-size: 1.75rem;
     margin-bottom: 2.5rem !important;
