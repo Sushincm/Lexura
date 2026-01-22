@@ -214,7 +214,7 @@ h6,
 .banner-desc {
   font-size: 0.95rem;
   color: #cacaca;
-  line-height: 1.8;
+  line-height: 1.5;
 }
 
 .banner-btn {
@@ -285,9 +285,11 @@ h6,
 }
 
 .info-item {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
-
+.info-item i {
+  font-size: 2.5rem;
+}
 /* Promo Banners */
 .promo-item {
   height: 350px;
@@ -296,8 +298,8 @@ h6,
   justify-content: center;
   transition: var(--transition-smooth);
   border-radius: 4px;
+  background-color: #f8f8f8;
 }
-
 
 .promo-img {
   position: absolute;
@@ -650,14 +652,14 @@ h6,
   .brand-logo-header {
     width: 70px;
   }
-  header{
+  header {
     background-color: var(--secondary-color);
   }
   .header-right-actions {
     width: 96px !important;
     flex: 0 !important;
   }
-  .social-icon i{
+  .social-icon i {
     color: var(--primary-color);
   }
 }
