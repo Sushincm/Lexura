@@ -265,6 +265,19 @@ h6,
   .update-head {
     margin-bottom: 1rem !important;
   }
+  .product-img{
+    width: auto !important;
+  }
+  .product-img-wrapper{
+    aspect-ratio: 1 !important;
+  }
+  .product-img-wrapper{
+    height: 150px;
+    width: 100%;
+  }
+  .product-img{
+    height: 120px;
+  }
 }
 
 @media (max-width: 575px) {
