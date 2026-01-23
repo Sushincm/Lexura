@@ -113,8 +113,8 @@ h6,
   background-color: var(--primary-color);
 }
 .top-text {
-  font-size: 0.7rem;
-  color: #666;
+  font-size: .8rem;
+  color: var(--secondary-color);
   letter-spacing: 0.5px;
 }
 
@@ -174,9 +174,6 @@ h6,
   display: flex;
   align-items: center;
   overflow: hidden;
-}
-.right-banner {
-  background-image: url("../images/banner-right-2.jpg");
 }
 
 .banner-item:hover::before {
@@ -280,6 +277,16 @@ h6,
   }
   .enquiry-btn{
     font-size: .8rem;
+  }
+    .social-text-mobile{
+      padding: 10px 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.14);
+    }
+  .social-text-mobile i{
+    color: #fff;
+  }
+  .top-text{
+    color: #fff;
   }
 }
 
@@ -419,7 +426,7 @@ h6,
 
 /* Minimal Me Banner */
 .minimal-me-banner .container-fluid {
-  height: 600px;
+  height: 500px;
 }
 
 .banner-full-img {
@@ -429,9 +436,12 @@ h6,
 }
 
 .minimal-box {
-  bottom: 5%;
+  bottom: 15%;
   right: 10%;
   z-index: 2;
+}
+.minimal-box h2{
+  font-size: 2.5rem;
 }
 
 @media (max-width: 767px) {
@@ -440,6 +450,8 @@ h6,
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 100%;
+    color: #fff;
+    text-align: center !important;
   }
   .minimal-me-banner .container-fluid {
     height: auto;
@@ -644,7 +656,7 @@ h6,
     padding-top: 0;
   }
   .brand-logo-header {
-    width: 70px;
+    width: 85px;
   }
   header {
     background-color: var(--secondary-color);
@@ -655,6 +667,13 @@ h6,
   }
   .social-icon i {
     color: var(--primary-color);
+  }
+  .right-banner .banner-content,
+  .left-banner .banner-content{
+    padding-left: 5%;
+  }
+  .product-card{
+    margin-bottom: 0;
   }
 }
 
@@ -669,7 +688,7 @@ h6,
   }
   .section-title {
     font-size: 1.75rem;
-    margin-bottom: 2.5rem !important;
+    margin-bottom: 1rem !important;
   }
 
   .info-bar .info-item {
@@ -681,7 +700,7 @@ h6,
     font-size: 2rem !important;
   }
 
-  .newsletter-section form {
+  .newsletter-section .cus-news {
     flex-direction: column;
     gap: 15px !important;
   }
